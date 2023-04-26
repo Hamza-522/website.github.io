@@ -1,0 +1,224 @@
+var hingol = [
+
+    {
+        "img" : "./Images/hingol/img-1.jpg",
+        "Name" : "MUD VOLCANOES",
+        "text" : "One of the most amazing geological features of this wildlife reserve in Balochistan is the presence of mud volcanoes",
+        "link" : "https://en.wikipedia.org/wiki/Mud_volcano",
+        "alt": "MUD VOLCANOES",
+        
+    },
+    {
+        "img" : "./Images/hingol/img-2.jpg",
+        "Name" : "PRINCESS OF HOPE",
+        "text" : "The erosions caused by changing weather have resulted in incredible natural rock formations, such as the Princess of Hope.",
+        "link" : "https://en.wikipedia.org/wiki/Princess_of_Hope",
+        "alt": "PRINCESS OF HOPE",
+        
+    },
+    {
+        "img" : "./Images/hingol/img-3.jpg",
+        "Name" : "HINGLAJ DEVI TEMPLE",
+        "text" : " Hingol National Park is also home to Hinglaj Devi Mandir, a temple uniquely located in a cave found in a mountain standing in Makran desert.",
+        "link" : "https://en.wikipedia.org/wiki/Hinglaj_Mata_mandir ",
+        "alt": "HINGLAJ DEVI TEMPLE",
+        
+    },
+    {
+        "img" : "./Images/hingol/img-4.jpg",
+        "Name" : "KUND MALIR BEACH",
+        "text" : "The water of this beach is crystal clear, and a large part of it is still unexplored since it is quite far from the metropolitan areas of the country",
+        "link" : "https://en.wikipedia.org/wiki/Kund_Malir",
+        "alt": "KUND MALIR BEACH",
+        
+    },
+    {
+        "img" : "./Images/hingol/img-5.jpg",
+        "Name" : "NATURAL OASES",
+        "text" : " While exploring this fascinating national park, you will come across many spots with fresh, clean water in the form of small lakes, streams",
+        "link" : "https://en.wikipedia.org/wiki/Oasis",
+        "alt": "NATURAL OASES",
+        
+    },
+    {
+        "img" : "./Images/hingol/img-6.jpg",
+        "Name" : "LION OF BALOCHISTAN",
+        "text" : "One of the most significant natural structures in the area is a sphinx (a mythical creature having the body of a lion and the head of a human), popularly known as the Lion of Balochistan.",
+        "link" : "https://en.wikipedia.org/wiki/Mud_volcano",
+         "alt": "LION OF BALOCHISTAN",
+        
+    }
+];
+
+ 
+var Khunjerab = [
+
+    {
+        "img" : "./Images/khunjerab/khunj.jpg",
+        "name": "Kunjerab Pass",
+        "text" : "Khunjerab Pass is a 4,693-meter-high mountain pass in the Karakoram Mountains, in a strategic position on the northern border of Pakistan and on the southwest border of China.",
+        "link": "https://en.wikipedia.org/wiki/Khunjerab_Pass",
+        "alt": "Kunjerab Pass",
+    },
+    {
+        "img" : "./Images/khunjerab/hunza.jpg",
+        "name" : "Hunza Autumn",
+        "text" : "The Hunza Valley is a mountainous valley in the northern part of the Gilgit-Baltistan region of Pakistan, formed by the Hunza River, bordering Ishkoman to the northwest, Shigar to the southeast,",
+        "link" : "https://en.wikipedia.org/wiki/Hunza_Valley",
+        "alt": "Hunza Autumn",
+    },
+    {
+        "img" : "./Images/khunjerab/thalle.jpg",
+        "name" : "Thalle La Trek",
+        "text" : "Pakistan is home to 108 peaks above 7,000 metres and 4555[1] above 6,000 m. There is no count of the peaks above 5,000 and 4,000 m. Five of the 14 highest independent peaks in the world are in Pakistan.",
+        "link" : "https://en.wikipedia.org/wiki/List_of_mountains_in_Pakistan",
+        "alt": "Thalle La Trek",
+    }
+   
+];
+
+var deosai = [
+
+    {
+        "img":"./Images/deosai/lake.jpg",
+        "Name":"Shausar Lake",
+        "text":"Sheosar Lake is an alpine lake situated at the western end of Deosai National Park, Gilgit-Baltistan, Pakistan. It is located at the height of 4,142 metres",
+        "link":"https://en.wikipedia.org/wiki/Sheosar_Lake",
+        "alt":"Shausar Lake",
+    },
+
+    {
+        "img":"./Images/deosai/top.jpg",
+        "Name":"Deosai top",
+        "text":"The Deosai National Park is located in western Himalayas in Gilgit Baltistan (GB), Pakistan. It has an average elevation of 4,114 metres (13,497 ft) above sea level,",
+        "link":"https://en.wikipedia.org/wiki/Deosai_National_Park#:~:text=The%20Deosai%20National%20Park%20is,world%20after%20Changtang%20Tibetan%20Plateau.",
+        "alt":"Deosai top",
+    },
+
+    {
+        "img":"./Images/deosai/kala.jpg",
+        "Name":"Kala Pani ",
+        "text":"It is located at an average hight of approximately 13500 feet above the sea level and is famous for brown bears, golden eagles and golden marmots. The lake which can be seen in the picture is kala pani which means black water.",
+        "link":"https://commons.wikimedia.org/wiki/File:Kala_Pani_(Black_water),_Deosai,_Skardu,_Pakistan.jpg#:~:text=It%20is%20located%20at%20an,it's%20water%20seems%20amazingly%20dark.",
+        "alt":"Kala Pani ",
+    }
+];
+
+var  kirthar =[
+
+    {
+        "img":"./Images/kirthar/Hdum.jpg",
+        "Name":"Hub Dam",
+        "text":"Hub Dam is a reservoir on the Hub River. It is situated 56 km from Karachi city in Karachi and Hub District on Sindh and Balochistan provinces border. The dam is extended to 24300 acres with gross storage capacity of 857000 acre feet.",        
+        "link":"https://en.wikipedia.org/wiki/Hub_Dam",
+        "alt":"Hub Dam",
+    },
+    {
+        "img":"./Images/kirthar/Ddum.jpg",
+        "Name":"Darawat Dam",
+        "text":"Darawat Dam is concrete gravity dam across Nai Baran River near Village of Jhangri in Jamshoro district of Sindh, Pakistan. Construction of dam started in March 2010 and its completion",
+        "link":"https://en.wikipedia.org/wiki/Darawat_Dam",
+        "alt":"Darawat Dam",
+    },
+    {
+        "img":"./Images/kirthar/wall.jpg",
+        "Name":"Ranikot Fort",
+        "text":"Ranikot Fort  is a historical Talpur fort near Sann, Jamshoro District, Sindh.[2] in Pakistan. Ranikot Fort is also known as The Great Wall of Sindh and is believed to be the world's largest fort",
+        "link":"https://en.wikipedia.org/wiki/Ranikot_Fort",
+        "alt":"Ranikot Fort",
+    }
+  
+];
+
+var chitral =[
+
+    {
+        "img":"./Images/chitral/Madaglasht.jpg",
+        "Name":"Madaglasht Valley",
+        "text":"Madaglasht Valley is located at the South-east of Chitral Town with an approximate population of 3000 people. The main languages in Madaglasht Valley are Chitrali and Persian.",
+        "link":"https://kptourism.com/attraction-single/5d20a93e4a6fdd249700963c/show",
+        "alt":"Madaglasht Valley",
+    },
+    {
+        "img":"./Images/chitral/2.jpg",
+        "Name":"Qaqlasht Valley",
+        "text":"Qaqlasht is a flat terrain that is located about 80 kilometers north of Chitral town and approachable by a smooth drive of one and half-hour. When early spring sweeps through the valley,",
+        "link":"https://kptourism.com/attraction-single/5d1dc7ac5e2f252c803ffbea/show",
+        "alt":"Qaqlasht Valley",
+    },
+    {
+        "img":"./Images/chitral/chitralfort.jpg",
+        "Name":"chitral fort",
+        "text":"The Chitral Fort is a fortification in Chitral town, Khyber Pakhtunkhwa, Pakistan. The fort is situated on the banks of the Chitral River. The fort has a commanding position on the river and is believed to have been built in 1774 ",
+        "link":"https://en.wikipedia.org/wiki/Chitral_Fort",
+        "alt":"chitral fort",
+    },
+
+    {
+        "img":"./Images/chitral/cm.jpg",
+        "Name":"chitral museum",
+        "text":"Chitral Museum is a museum located in Chitral District, Khyber Pakhtunkhwa, Pakistan, established on 8 July 2010",
+        "link":"https://en.wikipedia.org/wiki/Chitral_Museum",
+        "alt":"chitral museum",
+    },
+
+    {
+        "img":"./Images/chitral/polo.jpg",
+        "Name":"Shandur Polo ",
+        "text":"Lowari Tunnel is a 10.4 kilometres vehicular tunnel under the Lowari Pass of the Hindu Kush mountains,between Dir and Chitral in Khyber Pakhtunkhwa province of Pakistan ",
+        "link":"https://en.wikipedia.org/wiki/Lowari_Tunnel",
+        "alt":"Shandur Polo ",
+    },
+    {
+        "img":"./Images/chitral/tunnal.jpg",
+        "Name":"Lowari Tunnel",
+        "text":"Lowari Tunnel is a 10.4 kilometres vehicular tunnel under the Lowari Pass of the Hindu Kush mountains, between Dir and Chitral in Khyber Pakhtunkhwa province of Pakistan ",
+        "link":"https://en.wikipedia.org/wiki/Lowari_Tunnel",
+        "alt":"Lowari Tunnel",
+    }
+];
+
+var ayub =[
+    {
+        "img":"./Images/ayub/fasil.jpg",
+        "Name":"shah faisal masjid",
+        "text":"The Faisal Mosque (Urdu: فیصل مسجد, romanized: faisal masjid) is the national mosque of Pakistan, located in capital Islamabad.[1][2] It is the fifth-largest mosque in the world and the largest within South Asia",
+        "link":"https://en.wikipedia.org/wiki/Faisal_Mosque",
+        "alt":"shah faisal masjid",
+    },
+    {
+        "img":"./Images/ayub/park.jpg",
+        "Name":"Jinnah Park",
+        "text":"Jinnah Park is an amusement and public park located on Airport Road in the high-security Chaklala Cantonment suburb of Rawalpindi, ",
+        "link":"https://en.wikipedia.org/wiki/Jinnah_Park",
+        "alt":"Jinnah Park",
+    },
+    {
+        "img":"./Images/ayub/joyland.jpg",
+        "Name":"Joyland",
+        "text":"Joyland is one of the largest amusement park across twin cities, is the subsidiary of Joyland Lahore which was established in 1982, Joyland Rawalpindi is constructed on an area of 23 acres beating joy right in to the city. Spreading smiles since 2018,",
+        "link":"https://joyland.com.pk/rawalpindi/",
+        "alt":"Joyland",
+    },
+    {
+        "img":"./Images/ayub/zoo.jpg",
+        "Name":"Jungle World",
+        "text":"Jungle World is an animal theme park and zoological garden located in Ayub National Park, Rawalpindi District, Pakistan. The visitor spot is spread over about 50 acres",
+        "link":"https://jungleworld.com.pk/",
+        "alt":"Jungle World",
+    },
+    {
+        "img":"./Images/ayub/army.jpg",
+        "Name":"Army Museum",
+        "text":"Pakistan Army Museum is an army museum located in Rawalpindi. It was opened on October 24, 1961 to preserve Pakistan Army's past through relics and pictures and is one of the largest museums of Pakistan",
+        "link":"https://en.wikipedia.org/wiki/Pakistan_Army_Museum",
+        "alt":"Army Museum",
+    },
+    {
+        "img":"./Images/ayub/jungle.jpg",
+        "Name":"Jungle Kingdom",
+        "text":"Pepsi Jungle Kingdom. 4.4. (593). Directions. Overview. Reviews. Photos. Google review summary. This review summary only contains reviews submitted on",
+        "link":"https://www.google.com.pk/travel/hotels/entity/ChkInaT-p5uEyr8VGg0vZy8xMWZ4dmxyMTR3EAQ",
+        "alt":"Jungle Kingdom",
+    }
+];

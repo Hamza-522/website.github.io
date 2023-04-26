@@ -1,0 +1,578 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    width: 100%;
+}
+
+/* ***************NavBar**************** */
+nav{
+    display: flex;
+    position: relative;
+}
+nav .link{
+    display: flex;
+    position: relative;
+    margin: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav #marker {
+    position: absolute;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background-color: rgb(223, 0, 74);
+    bottom: 10px;
+    transition: 0.50s;
+}
+
+
+
+.Nav-con{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.link{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    margin: 15px;
+}
+
+.link:hover{
+    color: rgba(255, 255, 255, 0.863);
+}
+
+
+
+.hangol-img{
+    width: 100%;
+    background-size: cover;
+     height: 100vh;
+}
+
+
+.nav-p{
+  font-size: 30px;
+  color: #2EB872;
+  font-weight: 700;
+  height: 50px;
+}
+
+.nav-p-2{
+  color: #4CAF50;
+}
+
+
+
+ /*--------------- Text-Container---------------- */
+
+ .text-con{
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    top: 50%;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.text-con .heading-1{
+    font-size: 50px;
+    width: 100%;
+    font-weight: bolder;
+}
+.text-con .heading-2{
+    width: 100%;
+    font-size: 20px;
+}
+
+.Nav-con:hover .text-con{
+    opacity: 1;
+}
+/* ***************NavBar-End**************** */
+
+
+
+
+   /************* About Parks ******************/
+
+   .heading-2 .h-color{
+    color: #2EB872;
+    }
+
+    .about-park{
+        text-align: center;
+    }
+
+    .container-1 {
+        position: relative;
+        width: 300px;
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 300px;
+        height: 250px;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+      }
+
+      .text-1{
+        transition: .5s ease;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+      }
+      
+      .container-1:hover .image {
+        opacity: 0.3;
+      }
+      
+      .container-1:hover .middle {
+        opacity: 1;
+      }
+      .container-1:hover .text-1 {
+        opacity: 0;
+      }
+      
+      .text {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+
+
+
+
+
+
+        /************** Tourist Places Cards ****************/
+
+
+
+        .card-1{
+          width: 300px;
+          height: 350px;
+          border-radius: 5px;
+          overflow: hidden;
+          position: relative;
+          margin: 5%;
+          left: 15%;
+          justify-content: center;
+        }
+
+        .cardimg{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+
+        .cardbody{
+          width: 100%;
+          height: 100%;
+          top: 0;
+          right: 0;
+          left: 0;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.395);
+          border-radius: 5px;
+          color: white;
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          transform: translatey(100%);
+          transition: 0.6s;
+        }
+
+        .card-1:hover .cardbody{
+          transform: translatey(0);
+          transition: 0.6s;
+        }
+
+
+        .cardtitle{
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+
+        .cardtext{
+          font-size: 15px;
+          line-height: 25px;
+          margin: 35px 0;
+          font-weight: 400;
+          text-transform: capitalize;
+        }
+
+        .cardbtn{
+          color: white;
+          background: #2EB872;
+          text-align: center;
+          width: 120px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          font-weight: 500;
+          text-decoration: none;
+        }
+
+        .cardbtn:hover{
+          color: rgba(255, 255, 255, 0.577);
+        }
+
+        .cardbtn-2{
+          color: white;
+          background: #2EB872;
+          width: 120px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          text-align: center;
+          font-weight: 500;
+          text-decoration: none;
+        }
+
+
+        /****************** Animals Card ********************/
+
+         .aml-card{
+          width: 300px;
+          height: 350px;
+          border-radius: 5px;
+          overflow: hidden;
+          position: relative;
+          margin: 5%;
+          left: 8%;
+          justify-content: center;
+        }
+
+        .amlimg{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+
+        .amlbody{
+          width: 100%;
+          height: 70%;
+          top: 37%;
+          right: 0;
+          position: absolute;
+          border-radius: 5px;
+          color: white;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          transform: translateY(60%);
+          transition: 0.6s;
+        }
+
+        .aml-card:hover .amlbody{
+          transition: 0.6s;
+           background: rgba(0, 0, 0, 0.395);
+          /* backdrop-filter: blur(5px); */
+          transform: translateY(0%);
+          
+        }
+
+        .aml-cardtitle{
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+
+        .aml-cardtext{
+          font-size: 10px;
+          line-height: 15px;
+          margin: 16.5px 0;
+          font-weight: 600;
+          text-transform: capitalize;
+        }
+
+        .cardbtn{
+          color: white;
+          cursor: pointer;
+          background: #2EB872;
+          width: 80px;
+          padding: 5px 10px;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+          font-size: 10px;
+          font-weight: 500;
+        }
+
+
+
+        .act-con{
+          display: flex;
+          flex-direction: row;
+        }
+
+        
+        .act-card{
+          left: 25%;
+        }
+
+        .heading-7 .h-color{
+          color: #2EB872;
+          }
+
+
+
+
+
+
+
+
+
+         /* ******************Footer****************  */
+
+
+
+    /* icon Animation */
+
+    .social-menu ul{
+      display: flex;
+      transform: translate(-50% , -50%);
+      align-items: center;
+      margin-left: 20%;
+      font-size: 5px;
+      
+  }
+  
+  .social-menu ul li{
+      list-style: none;
+      margin: 0 15px;
+      font-size: 15px;
+      font-size: 5px;
+  }
+  
+  .social-menu ul li .fa{
+      font-size: 15px;
+      line-height: 30px;
+      transition: .4s;
+      color: #000;
+      
+  }
+  .social-menu ul li .fa:hover{
+      color: white;
+      
+  }
+  .social-menu ul li a{
+      position: relative;
+      display: block;
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      transition: .4s;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      font-size: 5px;
+  }
+  
+  
+  /* FOOTER */
+
+  .social-menu ul li a:hover{
+      transform: translate(-0 , -10px);
+      
+  }
+  
+  
+  .social-menu ul li:nth-child(1) a:hover{
+      background-color: #3b5999;
+      color: #ffff;
+  }
+  
+  .social-menu ul li:nth-child(2) a:hover{
+      background-color: #075E54;
+      color: #ffff;
+  }
+  
+  .social-menu ul li:nth-child(3) a:hover{
+     background-color: #f83b90;
+     color: #ffff;
+  }
+  
+  .social-menu ul li:nth-child(4) a:hover{
+    background-color: #0077B5;
+    color: #ffff;
+  }
+  
+
+
+  @media screen and (max-width: 768px) {
+
+    .text-con{
+      top: 40%;
+      left: 25%; 
+  }
+  
+  .text-con .heading-1{
+      font-size: 30px;
+      width: 100%;
+      font-weight: bolder;
+  }
+  .text-con .heading-2{
+      width: 100%;
+      font-size: 15px;
+  }
+
+    
+  }
+
+  @media screen and (max-width:425px) {
+
+    .text-con{
+      top: 15%;
+      left: 5%; 
+  }
+  
+  .text-con .heading-1{
+      font-size: 15px;
+      width: 100%;
+      font-weight: bolder;
+  }
+  .text-con .heading-2{
+      width: 100%;
+      font-size: 10px;
+  }
+
+  .Nav-con{
+    height: 52vh;
+  }
+
+  .social-menu ul{
+    margin-left: 40%;
+  }
+
+
+  }
+
+  @media screen and  (max-width:1440px) {
+
+    .text-con{
+     
+  }
+  
+  .text-con .heading-1{
+      
+      width: 100%;
+      font-weight: bolder;
+  }
+  .text-con .heading-2{
+      width: 100%;
+    
+  }
+
+  .Nav-con{
+    height: 100vh;
+  } 
+
+  }
+
+
+  @media screen and (max-width:375px) {
+    
+         .card-1{
+          width: 250px;
+          height: 350px;
+          border-radius: 5px;
+          overflow: hidden;
+          position: relative;
+          margin: 5%;
+          left:3%;
+          justify-content: center;
+        }
+
+        .aml-card{
+             width: 250px;
+          height: 350px;
+          left: 5%;
+        }
+
+          .social-menu ul{
+          margin-left: 31.5%;
+    } 
+
+    .Nav-con{
+      height: 50vh;
+    }
+    
+    .text-con{
+      left: 18%;
+      top: 20%;
+    }
+
+    .text-con .heading-1{
+      
+      width: 100%;
+      font-weight: bolder;
+  }
+  .text-con .heading-2{
+      width: 100%;
+    
+  }
+
+  .cardbtn-2{
+          width: 120px;
+          padding: 5px 10px;
+          border-radius: 5px; 
+          font-weight: 500;
+          font-size: 10px;
+         
+        }
+
+}
+
+@media screen and (max-width:1024px) {
+
+    .card-1{
+        width: 100%;
+        height: 350px;
+    
+      }
+
+      .cardimg{
+        width: 100%;
+        height: 100%;
+      }
+    
+}
+  
+
+  
